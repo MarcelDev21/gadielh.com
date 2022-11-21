@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Sitemap: https://gadielh.com/sitemap.xml
+Sitemap: https://gadielh.com/sitemap0.xml
+Sitemap: https://gadielh.com/sitemap1.xml
+Sitemap: https://gadielh.com/sitemap2.xml
+Sitemap: https://gadielh.com/sitemap3.xml
+Sitemap: https://gadielh.com/sitemap4.xml
+Sitemap: https://gadielh.com/sitemap5.xml
+Sitemap: https://gadielh.com/sitemap6.xml
+Sitemap: https://gadielh.com/sitemap7.xml
+Sitemap: https://gadielh.com/sitemap8.xml
+Sitemap: https://gadielh.com/sitemap9.xml

@@ -1,0 +1,39 @@
+2022-11-19T16:56:53+00:00 CRITICAL Uncaught TypeError: readdir(): Argument #1 ($dir_handle) must be of type resource or null, bool given in /var/www/html/wp-content/plugins/wordfence/lib/wfDirectoryIterator.php:51
+Stack trace:
+#0 /var/www/html/wp-content/plugins/wordfence/lib/wfDirectoryIterator.php(51): readdir()
+#1 /var/www/html/wp-content/plugins/wordfence/lib/wfActivityReport.php(663): wfDirectoryIterator->scan()
+#2 /var/www/html/wp-content/plugins/wordfence/lib/wfDirectoryIterator.php(63): wfRecentlyModifiedFiles->scan()
+#3 /var/www/html/wp-content/plugins/wordfence/lib/wfActivityReport.php(663): wfDirectoryIterator->scan()
+#4 /var/www/html/wp-content/plugins/wordfence/lib/wfDirectoryIterator.php(63): wfRecentlyModifiedFiles->scan()
+#5 /var/www/html/wp-content/plugins/wordfence/lib/wfActivityReport.php(663): wfDirectoryIterator->scan()
+#6 /var/www/html/wp-content/plugins/wordfence/lib/wfDirectoryIterator.php(63): wfRecentlyModifiedFiles->scan()
+#7 /var/www/html/wp-content/plugins/wordfence/lib/wfActivityReport.php(663): wfDirectoryIterator->scan()
+#8 /var/www/html/wp-content/plugins/wordfence/lib/wfDirectoryIterator.php(63): wfRecentlyModifiedFiles->scan()
+#9 /var/www/html/wp-content/plugins/wordfence/lib/wfActivityReport.php(663): wfDirectoryIterator->scan()
+#10 /var/www/html/wp-content/plugins/wordfence/lib/wfDirectoryIterator.php(63): wfRecentlyModifiedFiles->scan()
+#11 /var/www/html/wp-content/plugins/wordfence/lib/wfActivityReport.php(663): wfDirectoryIterator->scan()
+#12 /var/www/html/wp-content/plugins/wordfence/lib/wfDirectoryIterator.php(63): wfRecentlyModifiedFiles->scan()
+#13 /var/www/html/wp-content/plugins/wordfence/lib/wfActivityReport.php(663): wfDirectoryIterator->scan()
+#14 /var/www/html/wp-content/plugins/wordfence/lib/wfDirectoryIterator.php(63): wfRecentlyModifiedFiles->scan()
+#15 /var/www/html/wp-content/plugins/wordfence/lib/wfActivityReport.php(663): wfDirectoryIterator->scan()
+#16 /var/www/html/wp-content/plugins/wordfence/lib/wfDirectoryIterator.php(63): wfRecentlyModifiedFiles->scan()
+#17 /var/www/html/wp-content/plugins/wordfence/lib/wfActivityReport.php(663): wfDirectoryIterator->scan()
+#18 /var/www/html/wp-content/plugins/wordfence/lib/wfDirectoryIterator.php(44): wfRecentlyModifiedFiles->scan()
+#19 /var/www/html/wp-content/plugins/wordfence/lib/wfActivityReport.php(404): wfDirectoryIterator->run()
+#20 /var/www/html/wp-content/plugins/wordfence/lib/wfActivityReport.php(179): wfActivityReport->getRecentFilesModified()
+#21 /var/www/html/wp-content/plugins/wordfence/lib/wfActivityReport.php(492): wfActivityReport->getFullReport()
+#22 /var/www/html/wp-content/plugins/wordfence/lib/wfActivityReport.php(502): wfActivityReport->toEmailView()
+#23 /var/www/html/wp-content/plugins/wordfence/lib/wfActivityReport.php(66): wfActivityReport->sendReportViaEmail()
+#24 /var/www/html/wp-includes/class-wp-hook.php(308): wfActivityReport::executeCronJob()
+#25 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#26 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#27 /var/www/html/wp-cron.php(188): do_action_ref_array()
+#28 {main}
+  thrown dans /var/www/html/wp-content/plugins/wordfence/lib/wfDirectoryIterator.php à la ligne 51
+
+2022-11-19T17:26:00+00:00 CRITICAL Maximum execution time of 300 seconds exceeded dans /var/www/html/wp-admin/includes/update-core.php à la ligne 1604
+
+2022-11-19T19:15:46+00:00 CRITICAL Maximum execution time of 60 seconds exceeded dans /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php à la ligne 430
+
+2022-11-19T20:05:27+00:00 CRITICAL Maximum execution time of 60 seconds exceeded dans /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php à la ligne 613
+
